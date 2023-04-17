@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: test
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+fileRepositoryFolder: C:\Users\cr1s\OneDrive\Desktop\file-upload-and-download\\FileRepository
+
